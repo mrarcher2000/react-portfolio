@@ -1,0 +1,36 @@
+body {
+    background-color: #48b8b6;
+}
+
+.App {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .span {
+    color: #dedede;
+  }
+  
+  .profile-pic {
+    height: 260px;
+      width: 204px;
+      border: 5px solid white;
+      border-radius: 10%;
+      margin: 50px;
+  }
+  
+.navigationbar {
+    justify-content: center;
+    font-size: 2rem;
+    color: #dedede;
+  }
+
+
+
+.navigationbar:hover {
+    color: #dedede;
+}

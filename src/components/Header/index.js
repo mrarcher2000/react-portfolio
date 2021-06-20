@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import '@popperjs/core';
 
 import instapic from '../../assets/instapic.jpg';
+import Navigation from '../Navigation';
 
 function Header() {
 
