@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
+import AboutMe from './components/AboutMe';
 import './App.css'
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         <Row>
           <Header />
           <Navigation />
+          <br />
+          <AboutMe />
         </Row>
       </Container>
     </div>
