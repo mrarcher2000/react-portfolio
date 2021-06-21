@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 import './App.css'
 
 function App() {
@@ -38,9 +39,13 @@ function App() {
           <Header />
           <Navigation />
           <br />
+
+          <br />
           
         </Row>
+        <br/>
       </Container>
+      <Footer />
     </div>
   );
 }
