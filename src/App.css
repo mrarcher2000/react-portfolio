@@ -34,3 +34,9 @@ body {
 .navigationbar:hover {
     color: #dedede;
 }
+
+
+.desc {
+    font-size: 75%;
+    flex-wrap: wrap;
+}

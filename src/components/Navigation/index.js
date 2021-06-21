@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ListGroup, Nav, Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
+import PageElement from '../PageElement';
 
 
 function Navigation() {
@@ -34,6 +35,11 @@ function Navigation() {
                     </Nav>
 
                 </Row>
+
+                <PageElement 
+                    pages = {pages}
+                    currentPage = {currentPage}
+                />
 
             </Container>
 
