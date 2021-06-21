@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutMe from '../AboutMe';
+import Portfolio from '../Portfolio';
 
 
 
@@ -8,9 +9,11 @@ function PageElement(props) {
 
     const {pages, currentPage} = props;
 
-    switch (pages) {
+    switch (currentPage) {
         case 'aboutme':
             return (<AboutMe />);
+        case 'portfolio':
+            return (<Portfolio />);
         default:
             return (<AboutMe />);
     }
