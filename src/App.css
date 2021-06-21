@@ -86,3 +86,32 @@ body {
     box-shadow: 7px 7px 7px 1px rgba(0,0,0, 0.3);
     font-size: larger;
 }
+
+
+.resume-body {
+    font-size: 75%;
+    color: white;
+}
+
+.resume-body h3 {
+    margin: 5px;
+    color: darkblue;
+}
+
+.resume-body span {
+    color: var(--color4);
+}
+
+.resume-body ul {
+    margin-top: 10px;
+    list-style-type: none;
+    border-bottom: 1px solid darkblue;
+}
+
+.resume-body li {
+    font-style: normal;
+}
+
+.resume-block {
+    padding: 15px;
+}
