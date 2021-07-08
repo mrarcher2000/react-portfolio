@@ -5,7 +5,8 @@ import gamestersParadise from '../../assets/gamesters-paradise.png';
 import theTechBlog from '../../assets/the-tech-blog.png';
 import marvelSearch from '../../assets/marvel-search.png';
 import runBuddy from '../../assets/run-buddy.png';
-import horiseon from '../../assets/horiseon.png'
+import horiseon from '../../assets/horiseon.png';
+import codeChallenger from '../../assets/codeChallenger.png';
 
 
 function Portfolio() {
@@ -16,6 +17,12 @@ function Portfolio() {
             <Col>
                 <div class="projects">
                     <div class="project recent-project">
+                        <a href="https://github.com/mrarcher2000/code-challenger/" target="_blank">
+                            <img src={codeChallenger} alt="Code Challenger is a Social Media page to share your coding abilities through Daily Challenges" />
+                            <p>Code Challenger</p>
+                        </a>
+                    </div>
+                    <div class="project">
                         <a href="https://github.com/mrarcher2000/gamesters-paradise/" target="_blank">
                             <img src={gamestersParadise} alt="Gamester's Paradise is a forum made just for gamer's to talk about new video games and share ideas about all things gamer" />
                             <p>Gamester's Paradise</p>
