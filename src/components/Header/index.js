@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import '@popperjs/core';
 
@@ -6,6 +6,10 @@ import instapic from '../../assets/instapic.jpg';
 import Navigation from '../Navigation';
 
 function Header() {
+
+    useEffect(() => {
+        document.title = "Archer Nicholson";
+    }, []);
 
 
     return (

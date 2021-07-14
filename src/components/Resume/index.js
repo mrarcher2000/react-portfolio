@@ -12,6 +12,15 @@ function Resume() {
             <Col>
                 <h3>To download a PDF copy of my most up-to-date Resume, click <a href={resumePDF} target="_blank" download>here.</a></h3>
                 <div class="resume-body">
+                <div class="resume-block">
+                        <h3>Technical Skills</h3>
+                        <br />
+                        <ul>
+                            <li> <h4>Programming Languages: </h4> Javascript ES6+, CSS, HTML, JSX, MySQL, NoSQL</li><br/>
+                            <li><h4>Tools: </h4> Node, React, Express, Javascript Web Tokens, Bootstrap, Handlebars </li><br/>
+                            <li><h4>Applications: </h4> GitBash, Visual Studio Code, MongoDB, Insomnia, Jira</li><br />
+                        </ul>
+                    </div> <br /> <br/>
                     <div class="resume-block">
                         <h3>Frontier Communications // Empereon Constar - <span>Customer Service Team Lead</span></h3>
                         <h4>April 2020 - Present</h4>
