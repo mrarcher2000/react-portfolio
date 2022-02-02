@@ -15,8 +15,15 @@ function Portfolio() {
     return (
         <Row>
             <Col>
-                <div class="projects">
+
                     <div class="project recent-project">
+                                <a href="https://mrarcher2000.github.io/run-buddy/" target="_blank">
+                                    <img src={runBuddy} alt="Run Buddy is a mock website built for a workout trainer Start Up." />
+                                    <p>Run Buddy</p>
+                                </a>
+                    </div>
+                <div class="projects">
+                    <div class="project ">
                         <a href="https://github.com/mrarcher2000/code-challenger/" target="_blank">
                             <img src={codeChallenger} alt="Code Challenger is a Social Media page to share your coding abilities through Daily Challenges" />
                             <p>Code Challenger</p>
@@ -40,13 +47,7 @@ function Portfolio() {
                             <p>Marvel Superhero Search</p>
                         </a>
                     </div>
-                    <div class="project">
-                        <a href="https://mrarcher2000.github.io/run-buddy/" target="_blank">
-                            <img src={runBuddy} alt="Run Buddy is a mock website built for a workout trainer Start Up." />
-                            <p>Run Buddy</p>
-                        </a>
-                    </div>
-                    <div class="project">
+                                        <div class="project">
                         <a href="https://mrarcher2000.github.io/horiseon/" target="_blank">
                             <img src={horiseon} alt="Horiseon is a mock web page built for their company to explain the importance of S.E.O. and online marketing." />
                             <p>Horiseon</p>

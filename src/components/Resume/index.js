@@ -22,8 +22,19 @@ function Resume() {
                         </ul>
                     </div> <br /> <br/>
                     <div class="resume-block">
+                        <h3>Crexendo Business Solutions - <span>VOIP Phone Technician</span></h3>
+                        <h4>October 2021 - Present</h4>
+                        <ul>
+                            <li>Troubleshooting issues with VOIP Phones and assisting in management of Cloud-Based phone <br />
+                                 services and call center management.</li>
+                            <li>Working tickets through Zoho Desk to troubleshoot, change, set up, or manage inbound and <br /> 
+                            outbound phone menus and options</li>
+                            
+                        </ul><br /> <br/>
+                    </div>
+                    <div class="resume-block">
                         <h3>Frontier Communications // Empereon Constar - <span>Customer Service Team Lead</span></h3>
-                        <h4>April 2020 - Present</h4>
+                        <h4>April 2020 - October 2021</h4>
                         <ul>
                             <li>Assisting agents on Customer Service calls to manage service orders, internet and/or phone outages, and <br /> billing information.</li>
                             <li>Coaching team members to improve customer service skills and use of in-office programs.</li>
